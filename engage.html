@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Engage — KorinaGB</title>
+<meta name="description" content="KorinaGB — special situations advisory for entrepreneurs under institutional attack. Asset rescue, risk management, whole-person resilience. London.">
+<style>
+:root{--dark:#191c22;--dark2:#22262e;--paper:#fbfaf8;--ink:#23262c;--mut:#6b6f77;--line:#e6e4df;--bronze:#96793f;--bronze2:#b3945a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--paper);line-height:1.75;font-size:16.5px}
+.nav{position:sticky;top:0;z-index:50;background:var(--dark);border-bottom:1px solid #2e323b}
+.nav .in{max-width:1000px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:16px 24px;flex-wrap:wrap;gap:8px}
+.logo{color:#eee9e0;text-decoration:none;letter-spacing:.22em;font-size:.95rem}
+.logo b{color:var(--bronze2)}
+.menu{display:flex;gap:24px;list-style:none;flex-wrap:wrap}
+.menu a{color:#9aa0aa;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:.82rem;letter-spacing:.05em}
+.menu a:hover,.menu a.on{color:#eee9e0;border-bottom:1px solid var(--bronze2);padding-bottom:3px}
+.hero{background:var(--dark);color:#eee9e0;padding:96px 24px 84px}
+.hero .in{max-width:1000px;margin:0 auto}
+.hero h1{font-weight:400;font-size:2.15rem;max-width:720px;line-height:1.35;margin-bottom:20px}
+.hero h1 em{color:var(--bronze2);font-style:normal}
+.hero p{font-family:Helvetica,Arial,sans-serif;color:#a8adb6;max-width:600px;font-size:1rem}
+.btns{margin-top:34px}
+.btn{display:inline-block;padding:13px 30px;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:.85rem;letter-spacing:.06em}
+.btn.gold{background:var(--bronze);color:#fff}
+.btn.line{border:1px solid #4a4f59;color:#eee9e0;margin-left:10px}
+.btn:hover{opacity:.85}
+.idbar{background:var(--dark2);color:#c7ccd4;border-top:1px solid #2e323b}
+.idbar .in{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:2px;padding:0 24px}
+.idbar div{padding:20px 14px;font-family:Helvetica,Arial,sans-serif;font-size:.82rem;line-height:1.5}
+.idbar b{display:block;color:var(--bronze2);font-size:.72rem;letter-spacing:.14em;margin-bottom:5px}
+.wrap{max-width:1000px;margin:0 auto;padding:64px 24px}
+h2.sec{font-size:1.45rem;color:var(--dark);font-weight:400;margin-bottom:12px}
+h2.sec:after{content:"";display:block;width:54px;height:2px;background:var(--bronze);margin-top:12px}
+.sub{color:var(--mut);margin:20px 0 26px;max-width:700px}
+.sub b{color:var(--ink)}
+.big{font-size:1.22rem;line-height:1.65;max-width:760px;color:var(--ink);margin-bottom:18px}
+.big em{color:var(--bronze);font-style:normal}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+ol.steps{list-style:none;counter-reset:s;margin-top:10px}
+ol.steps li{padding:20px 0 20px 64px;position:relative;border-bottom:1px solid var(--line)}
+ol.steps li::before{counter-increment:s;content:counter(s);position:absolute;left:0;top:16px;width:44px;height:44px;border:1px solid var(--bronze);color:var(--bronze);display:flex;align-items:center;justify-content:center;font-size:1.2rem}
+ol.steps b{display:block;margin-bottom:4px;color:var(--dark)}
+ol.steps p{font-family:Helvetica,Arial,sans-serif;font-size:.92rem;color:var(--mut)}
+ul.req{list-style:none;margin-top:8px}
+ul.req li{font-family:Helvetica,Arial,sans-serif;font-size:.93rem;padding:10px 0 10px 26px;border-bottom:1px solid var(--line);position:relative}
+ul.req li::before{content:"—";position:absolute;left:0;color:var(--bronze)}
+.terms{background:var(--dark);color:#eee9e0;padding:38px;margin:34px 0}
+.terms h3{font-weight:400;color:var(--bronze2);letter-spacing:.1em;font-size:.8rem;font-family:Helvetica,Arial,sans-serif;margin-bottom:16px}
+.terms p{margin-bottom:12px;line-height:1.7}
+.terms .fig{font-size:1.35rem}
+.terms small{font-family:Helvetica,Arial,sans-serif;color:#a8adb6;font-size:.85rem;display:block;margin-top:14px}
+.terms a{color:var(--bronze2)}
+.tl{border-left:2px solid var(--line);padding-left:26px;margin-top:16px}
+.tl div{margin-bottom:20px;position:relative}
+.tl div::before{content:"";position:absolute;left:-32px;top:8px;width:9px;height:9px;background:var(--bronze)}
+.tl b{color:var(--dark)}
+.tl p{font-family:Helvetica,Arial,sans-serif;font-size:.9rem;color:var(--mut)}
+.note{border-left:3px solid var(--bronze);background:#f4f1ea;padding:18px 22px;font-family:Helvetica,Arial,sans-serif;font-size:.92rem;margin:24px 0}
+.contactbox{background:#fff;border:1px solid var(--line);padding:30px}
+.contactbox p{margin-bottom:10px}
+.contactbox a{color:var(--bronze);text-decoration:none;font-weight:bold}
+footer{background:var(--dark);color:#8a909a;font-family:Helvetica,Arial,sans-serif;font-size:.78rem;text-align:center;padding:28px 24px;line-height:1.9}
+footer a{color:#c7ccd4;text-decoration:none}
+@media(max-width:760px){.split{grid-template-columns:1fr}.hero h1{font-size:1.55rem}}
+</style></head><body>
+<nav class="nav"><div class="in">
+<a class="logo" href="index.html">KORINA<b>GB</b></a>
+<ul class="menu"><li><a href="index.html">Home</a></li><li><a href="approach.html">Approach</a></li><li><a href="track-record.html">Track Record</a></li><li><a href="engage.html" class="on">Engage</a></li><li><a href="contact.html">Contact</a></li></ul>
+</div></nav>
+
+<header class="hero" style="padding:60px 24px 48px"><div class="in">
+<h1>Engage</h1>
+<p>Read this page fully before writing. It will save us both time.</p>
+</div></header>
+<section class="wrap">
+<h2 class="sec">How it works</h2>
+<ol class="steps">
+<li><b>Written application — before any conversation</b>
+<p>Send a full written presentation of the case and of yourself. Anonymous or incomplete inquiries receive no reply.</p></li>
+<li><b>Preliminary review — €4,000–6,000</b>
+<p>If the case falls within my scope, you will receive terms for a paid preliminary review, payable in advance. The review ends with my assessment and a consultation — and my decision whether I take the case.</p></li>
+<li><b>Engagement — accepted cases only</b>
+<p>Full strategic engagement: the map, the sequencing, the professionals, the owner. Terms below.</p></li>
+</ol>
+<div class="split" style="margin-top:44px">
+<div>
+<h2 class="sec">What your application must contain</h2>
+<ul class="req">
+<li>Who you are: name, citizenship, country of residence, your business, public footprint</li>
+<li>Full chronology of the case: when it started, which institutions, what actions, key dates</li>
+<li>What is at stake: assets, structures, jurisdictions, approximate values</li>
+<li>Documents you hold: decisions, assessments, freezing orders, protocols</li>
+<li>What has been tried so far — lawyers, appeals, outcomes</li>
+<li>What you seek, and your realistic horizon</li>
+</ul>
+</div>
+<div>
+<h2 class="sec">Minimum terms</h2>
+<div class="terms" style="margin-top:16px">
+<h3>KNOW THIS BEFORE YOU WRITE</h3>
+<p class="fig">Preliminary review: €4,000–6,000</p>
+<p class="fig">Engagement: from €250,000 / month</p>
+<p class="fig">Plus 3–50% equity in the recovered or newly formed structure</p>
+<small>Engagements are structured per case. If these terms are beyond your case's scale, this service is not the right fit — the community resources of <a href="https://jfe.org.uk">Justice for Entrepreneurs CIC</a> exist precisely for you, free of charge.</small>
+</div>
+</div>
+</div>
+<div class="note">Payment is by invoice after written confirmation — bank transfer or card link. No payments are collected through this website.</div>
+<p class="sub" style="margin-top:20px">Applications: <a href="mailto:office@korinagb.co.uk" style="color:var(--bronze);font-weight:bold">office@korinagb.co.uk</a> — subject line <b>CASE — [Name] — [Country]</b>.</p>
+</section>
+
+<footer>KorinaGB Limited · Company No. 16582861 · Registered in England and Wales · Part of Korina Group<br>
+<a href="mailto:office@korinagb.co.uk">office@korinagb.co.uk</a> ·
+<a href="https://korinanova.ie">Korina Nova (Dublin)</a> ·
+<a href="https://jfe.org.uk">Justice for Entrepreneurs CIC</a></footer></body></html>
